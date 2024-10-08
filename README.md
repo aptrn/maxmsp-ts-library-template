@@ -55,7 +55,19 @@ To create a new changeset:
 1. Run `pnpm changeset`
 2. Follow the prompts
 
-When you're ready to publish to [npm](https://www.npmjs.com/):
+When you're ready to publish to [npm](https://www.npmjs.com/) you can do it manually or with the GitHub Action.
+
+### Manual
+
+To publish manually:
+
+1. Login to npm with `npm login`
+2. Run `pnpm publish`
+3. Follow the prompts
+
+### GitHub Action
+
+To publish with the GitHub Action:
 
 1. Set up a [Repository Secret](https://docs.github.com/en/actions/security-guides/encrypted-secrets) named `NPM_TOKEN` with your [npm token](https://docs.npmjs.com/creating-and-viewing-access-tokens).
 2. The publish workflow will run automatically when you push to the `main` branch with a changeset.
