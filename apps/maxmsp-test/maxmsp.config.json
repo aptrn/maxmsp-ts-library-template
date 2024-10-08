@@ -1,0 +1,10 @@
+{
+  "output_path": "lib",
+  "dependencies": {
+    "@my-username/my-library": {
+      "alias": "myLibrary",
+      "files": ["index.js"],
+      "path": ""
+    }
+  }
+}
