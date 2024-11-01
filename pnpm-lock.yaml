@@ -69,8 +69,8 @@ importers:
         specifier: ^2.7.0
         version: 2.7.0
       typedoc:
-        specifier: ^0.26.8
-        version: 0.26.9(typescript@5.6.3)
+        specifier: ^0.26.11
+        version: 0.26.11(typescript@5.6.3)
       typescript:
         specifier: ^5.6.2
         version: 5.6.3
@@ -3517,8 +3517,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typedoc@0.26.9(typescript@5.6.3):
-    resolution: {integrity: sha512-Rc7QpWL7EtmrT8yxV0GmhOR6xHgFnnhphbD9Suti3fz3um7ZOrou6q/g9d6+zC5PssTLZmjaW4Upmzv8T1rCcQ==}
+  /typedoc@0.26.11(typescript@5.6.3):
+    resolution: {integrity: sha512-sFEgRRtrcDl2FxVP58Ze++ZK2UQAEvtvvH8rRlig1Ja3o7dDaMHmaBfvJmdGnNEFaLTpQsN8dpvZaTqJSu/Ugw==}
     engines: {node: '>= 18'}
     hasBin: true
     peerDependencies:
